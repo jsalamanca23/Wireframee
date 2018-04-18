@@ -1,0 +1,60 @@
+body {
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+  }
+  
+  header {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    background: #ccc;
+  }
+  
+  
+  
+  #NAV {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    width:100%;
+    margin-right: 0%;
+    clear: both;
+    color: #fff;
+    background: #888;
+  }
+  
+  
+  
+  #full {
+    float: left;
+   
+    overflow: auto;
+    clear: both;
+    background: #eee;
+  }
+  
+  #division {
+    padding: 20px;
+    margin-top: 20px;
+    background: #6ea3da;
+  }
+  
+  section {
+    float: left;
+    width: 33%;
+    height: 200px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #eee;
+  }
+  
+  footer {
+    padding: 20px;
+    clear: both;
+    background: #ccc;
+  }
+  
