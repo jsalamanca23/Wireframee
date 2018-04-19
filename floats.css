@@ -2,59 +2,80 @@ body {
     font-size: 24px;
     line-height: 32px;
     color: #333;
+    background-color: gray;
+    width: 960px;
+    margin: 0 auto;
   }
   
   header {
-    margin-left: 20%;
-    margin-right: 20%;
     text-align: center;
     padding: 20px;
     margin-bottom: 20px;
     color: #333;
-    background: #ccc;
+    background:lightgray;
   }
   
   
   
-  #NAV {
-    margin-left: 20%;
-    margin-right: 20%;
+  nav {
+    padding: 20px;
     text-align: center;
-    width:100%;
-    margin-right: 0%;
-    clear: both;
+   clear: both;
     color: #fff;
-    background: #888;
+    background:lightgray;
+
   }
+
+section {
   
-  
-  
-  #full {
-    float: left;
-   
-    overflow: auto;
-    clear: both;
-    background: #eee;
-  }
-  
-  #division {
-    padding: 20px;
-    margin-top: 20px;
-    background: #6ea3da;
-  }
-  
-  section {
-    float: left;
-    width: 33%;
-    height: 200px;
-    padding: 20px;
-    background: #fff;
-    border: 1px solid #eee;
-  }
-  
-  footer {
-    padding: 20px;
-    clear: both;
-    background: #ccc;
-  }
+  background:lightgray;
+  color: #333;
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 200px;
+  width:495px;
+  height: 70px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-align: center;
+
+
+}
+article{
+  float: left;
+  margin-top: 25px;
+  background-color:gray;
+  width: 240px;
+}
+aside {
+  float:right;
+  background:lightgray;
+  color: #333;
+  width: 465px;
+  height: 320px;
+  text-align: center;
+  margin-top:1%;
+
+
+
+
+}
+
+ 
+
+footer{
+  clear: both;
+  float: bottom;
+  background-color:lightgray;
+  text-align: center;
+  padding:20px;
+
+}
+
+
+
+
+
+
+
   
